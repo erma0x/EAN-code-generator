@@ -6,6 +6,10 @@
     command example below
             
              python3 /home/Desktop/EAN/ean13.py
+
+             or
             
+            python3 /home/Desktop/EAN/ean13_barcode.py
+
             
 4 you will find all your numbers on ean13_number.txt 
