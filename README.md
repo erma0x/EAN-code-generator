@@ -14,11 +14,11 @@ from a specific manufacturer.
 3 in you start the ean13.py program
     command example below
             
-             python3 /home/Desktop/EAN/ean13.py
+            $ python3 /home/Desktop/EAN/ean13.py
 
              or
             
-            python3 /home/Desktop/EAN/ean13_barcode.py
+            $ python3 /home/Desktop/EAN/ean13_barcode.py
 
             
 4 you will find all your numbers on ean13_number.txt 
