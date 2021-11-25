@@ -1,4 +1,4 @@
-# EAN-Code
+# EAN code generator     .txt or .png
 
 Generate EAN (European-Article-Number) code list in .txt or .png 
 The International Article Number (also known as European Article Number or EAN)
@@ -6,19 +6,23 @@ is a standard describing a barcode symbology and numbering system used in global
 to identify a specific retail product type, in a specific packaging configuration,
 from a specific manufacturer. 
 
-# Installation
-
+## Installation
+``` python
 pip install -r requirements.txt
+```
 
-# Usage
+## Usage
 
-1 replace start ean_number with whatever you want
-2 set the number of ean_numbers or images that you want
-3 run script   
--  $ python3 ean13.py
-        -> for generating numbers into the txt file
-   
-            
--   $ python3 ean13_barcode.py -> 
-        for generating ean barcode images into /img/ folder
+1. Change the variables inside the script ean13_barcode.py or ean13.py <br>
+       **tot_ean_requested** = total ean requested <br>
+       **ean_number** = starting ean number <br>
+
+2. Generate numbers into the txt file
+``` python
+python3 ean13.py
+```
+2. Generate ean barcode images into /img/ folder
+``` python    
+python3 ean13_barcode.py
+```
             
