@@ -1,4 +1,5 @@
 # EAN code generator     .txt or .png
+![](https://github.com/erma0x/EAN-code-generator/blob/master/img/ean13_barcode_805383785270.png)
 
 Generate EAN (European-Article-Number) code list in .txt or .png 
 The International Article Number (also known as European Article Number or EAN)
