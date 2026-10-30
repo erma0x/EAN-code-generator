@@ -1,7 +1,9 @@
-certifi==2022.12.7
-chardet==4.0.0
-idna==2.10
-requests==2.25.1
-urllib3==2.8.0
-barcode==1.0.0
-python-Levenshtein-wheels==0.13.2
+# Runtime dependencies for EAN generation
+certifi>=2024.8.30
+chardet>=5.2.0
+idna>=3.7
+requests>=2.32.3
+urllib3>=2.2.3
+barcode>=1.0.0
+Pillow>=10.4.0
+python-Levenshtein-wheels>=0.13.2
